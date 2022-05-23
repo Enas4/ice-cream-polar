@@ -1,0 +1,117 @@
+/****************************************
+        FIRST SECTION STARTS HERE
+*****************************************/
+.firstSection {
+  position: relative;
+  width: 1752px;
+  height: 900px;
+}
+.halfPinkBackground {
+  position: absolute;
+  width: inherit;
+  height: 450px;
+  background: rgb(242, 206, 218, 0.3);
+  padding: 0 230px 0 397px;
+  display: flex;
+  flex-direction: column;
+}
+/****************************************
+         NAV BAR SECTION
+*****************************************/
+header {
+  width: 1125px;
+  height: 79px;
+  margin-top: 13px;
+  border: 2px solid red;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.polarIcon {
+  width: 79px;
+  height: 79px;
+}
+.navUl {
+  display: flex;
+  gap: 39px;
+}
+#home {
+  font-size: 15px;
+  color: #d23166;
+}
+.navUl li {
+  list-style-type: none;
+}
+.navUl li a {
+  font-family: Roboto;
+  font-size: 14px;
+  text-decoration: none;
+  color: #150101;
+  font-weight: 700;
+}
+
+/****************************************
+        NAVBAR SECTION 
+*****************************************/
+
+/****************************************
+        FEEL INSIDE COLD SECTION 
+*****************************************/
+.feelCold {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.feelColdDiv1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 665px;
+  height: 358px;
+}
+.feelColdDiv1 p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  /* width: 172px;
+  height: 16px; */
+}
+.feelColdDiv1 h1 {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: rgb(15, 1, 1, 0.9);
+  /* width: inherit;
+  height: 130px; */
+  margin-bottom: 35px;
+}
+.feelColdDiv1 p.feelColdPara2 {
+  /* width: 523px;
+  height: 78px; */
+  font-family: "Hind Madurai";
+  font-style: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0f0101;
+  opacity: 0.6;
+  margin-bottom: 50px;
+}
+.feelColdDiv2 {
+  position: relative;
+  width: 40%;
+  transform: translate(-250px);
+  z-index: -2;
+}
+
+/****************************************
+        FEEL INSIDE COLD SECTION 
+*****************************************/
+
+/****************************************
+        FIRST SECTION ENDS HERE
+*****************************************/
