@@ -3,11 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
-/********* NAV BUTTON **********/
-.navButton {
+.same-containers {
+  padding: 0 230px 0 254px;
+  display: flex;
+}
+.products {
+  display: flex;
+}
+.h-6 {
+  width: 16px;
+}
+/****************************************
+        NAV BUTTON STARTS HERE
+*****************************************/
+.nav-button {
   width: 165px;
   height: 49px;
-  left: 1205px;
   top: 25px;
   display: flex;
   align-items: center;
@@ -19,20 +30,25 @@
   font-weight: 700;
   cursor: pointer;
 }
-.navButton a:link,
-.navButton a:visited {
+.nav-button a:link,
+.nav-button a:visited {
   font-family: "Hind Madurai";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   color: #fafafa;
+  text-decoration: none;
 }
-.navButton:hover {
+.nav-button:hover {
   background-color: #fafafa;
-  color: #d23166;
   border: 2px solid #d23166;
+}
+.nav-button:hover a {
+  color: #d23166;
 }
 .h1-span {
   color: #d23166;
 }
-/********* NAV BUTTON **********/
+/****************************************
+        NAV BUTTON ENDS HERE
+*****************************************/

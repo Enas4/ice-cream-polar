@@ -1,30 +1,26 @@
 /****************************************
         FIRST SECTION STARTS HERE
 *****************************************/
-.firstSection {
+.first-section {
   position: relative;
   width: 1752px;
   height: 900px;
+  background: rgb(242, 206, 218, 0.3);
 }
-.halfPinkBackground {
+.first-section-container {
   position: absolute;
   width: inherit;
-  height: 450px;
-  background: rgb(242, 206, 218, 0.3);
-  padding: 0 230px 0 397px;
-  display: flex;
+  height: inherit;
   flex-direction: column;
 }
 /****************************************
          NAV BAR SECTION
 *****************************************/
 header {
-  width: 1125px;
   height: 79px;
   margin-top: 13px;
-  border: 2px solid red;
 }
-.navBar {
+.nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +29,7 @@ header {
   width: 79px;
   height: 79px;
 }
-.navUl {
+.nav-ul {
   display: flex;
   gap: 39px;
 }
@@ -41,10 +37,10 @@ header {
   font-size: 15px;
   color: #d23166;
 }
-.navUl li {
+.nav-ul li {
   list-style-type: none;
 }
-.navUl li a {
+.nav-ul li a {
   font-family: Roboto;
   font-size: 14px;
   text-decoration: none;
@@ -59,39 +55,26 @@ header {
 /****************************************
         FEEL INSIDE COLD SECTION 
 *****************************************/
-.feelCold {
+.feel-cold {
   display: flex;
   align-items: center;
   height: auto;
 }
-.feelColdDiv1 {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 665px;
-  height: 358px;
-}
-.feelColdDiv1 p {
+.feel-cold-div1 p {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  /* width: 172px;
-  height: 16px; */
 }
-.feelColdDiv1 h1 {
+.feel-cold-div1 h1 {
   font-family: "Fredoka One";
   font-style: normal;
   font-weight: 400;
   font-size: 57.33px;
   line-height: 120.5%;
   color: rgb(15, 1, 1, 0.9);
-  /* width: inherit;
-  height: 130px; */
   margin-bottom: 35px;
 }
-.feelColdDiv1 p.feelColdPara2 {
-  /* width: 523px;
-  height: 78px; */
+.feel-cold-div1 p.feel-cold-para2 {
   font-family: "Hind Madurai";
   font-style: 18px;
   font-weight: 400;
@@ -101,10 +84,10 @@ header {
   opacity: 0.6;
   margin-bottom: 50px;
 }
-.feelColdDiv2 {
+.feel-cold-div2 {
   position: relative;
   width: 40%;
-  transform: translate(-250px);
+  transform: translate(-230px, 60px);
   z-index: -2;
 }
 
@@ -114,4 +97,248 @@ header {
 
 /****************************************
         FIRST SECTION ENDS HERE
+*****************************************/
+
+/****************************************
+        SECOND SECTION STARTS HERE
+*****************************************/
+
+.second-section {
+  position: relative;
+  width: 1752px;
+  height: auto;
+  background-color: #ffffff;
+}
+.second-section-container {
+  margin: 62px 0;
+  column-gap: 65px;
+}
+.items {
+  padding: 33px 26px;
+  text-align: center;
+  flex-grow: 1;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+}
+.first-item {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+}
+.items img {
+  width: 51px;
+  height: 43.35px;
+  margin-bottom: 18px;
+}
+.items h2 {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.items p {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+}
+/****************************************
+        SECOND SECTION ENDS HERE
+*****************************************/
+
+/****************************************
+        THIRD SECTION STARTS HERE
+*****************************************/
+.third-section {
+  width: 1752px;
+  height: 544px;
+  border: 2px solid pink;
+  background: #f8edf0;
+}
+.third-section-container {
+  align-items: center;
+  height: inherit;
+}
+.third-section-container h1 {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+  color: #150101;
+  margin-bottom: 16.04px;
+}
+.third-section-container p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150101;
+  opacity: 0.6;
+  margin-bottom: 35.1px;
+}
+
+/****************************************
+        THIRD SECTION ENDS HERE
+*****************************************/
+
+/****************************************
+        FOURTH SECTION STARTS HERE
+*****************************************/
+.fourth-section {
+  height: 2346px;
+  width: 1752px;
+  border: 2px solid green;
+}
+.fourth-section-container {
+  padding-top: 132px;
+  padding-left: 256px;
+  flex-direction: column;
+  height: inherit;
+}
+.products {
+  display: flex;
+  border: 2px solid brown;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+.product-details h1 {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 61px;
+  color: #150101;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.product-details ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.product-details ul li {
+  list-style-type: none;
+}
+.product-details ul li a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  opacity: 0.6;
+  color: #000000;
+}
+.product-details ul li a.ice-cream {
+  opacity: 1;
+  border-bottom: 5px solid #d23166;
+}
+.products h2 {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 11px;
+}
+.products p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+  margin-bottom: 34px;
+}
+.products h2:nth-child(3) {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.products h2:nth-child(3) span {
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration-line: line-through;
+  opacity: 0.7;
+  padding-left: 5px;
+}
+.right-side {
+  text-align: right;
+}
+.auto {
+  margin-left: auto;
+}
+/* COMMENT SECTION */
+.comment {
+  border: 2px solid purple;
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+.picture-right {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.comment h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.comment h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  opacity: 0.7;
+}
+.comment p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+  margin-bottom: 56px;
+}
+.comment .left-quote {
+  padding-right: 12px;
+}
+.comment .right-quote {
+  padding-left: 7px;
+}
+.carousel {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+/****************************************
+        FOURTH SECTION ENDS HERE
 *****************************************/
