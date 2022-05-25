@@ -29,6 +29,7 @@
   color: #fafafa;
   font-weight: 700;
   cursor: pointer;
+  transition: background 0.2s ease, border 0.2s ease, color 0.2s ease;
 }
 .nav-button a:link,
 .nav-button a:visited {

@@ -158,7 +158,6 @@ header {
 .third-section {
   width: 1752px;
   height: 544px;
-  border: 2px solid pink;
   background: #f8edf0;
 }
 .third-section-container {
@@ -195,7 +194,6 @@ header {
 .fourth-section {
   height: 2346px;
   width: 1752px;
-  border: 2px solid green;
 }
 .fourth-section-container {
   padding-top: 132px;
@@ -205,7 +203,6 @@ header {
 }
 .products {
   display: flex;
-  border: 2px solid brown;
   align-items: center;
   justify-content: space-between;
 }
@@ -289,7 +286,6 @@ header {
 }
 /* COMMENT SECTION */
 .comment {
-  border: 2px solid purple;
   display: flex;
   height: inherit;
   align-items: center;
@@ -327,6 +323,7 @@ header {
   color: #000000;
   opacity: 0.7;
   margin-bottom: 56px;
+  margin-left: 25px;
 }
 .comment .left-quote {
   padding-right: 12px;
@@ -341,4 +338,221 @@ header {
 }
 /****************************************
         FOURTH SECTION ENDS HERE
+*****************************************/
+
+/****************************************
+        FIFTH SECTION STARTS HERE
+*****************************************/
+.fifth-section {
+  width: 1752px;
+  height: 678px;
+  background: #f8edf0;
+}
+.fifth-section-container {
+  height: inherit;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.simple-way {
+  display: flex;
+  align-items: center;
+}
+.simple-way-description {
+  margin-left: 135px;
+  display: flex;
+  flex-direction: column;
+}
+.simple-way-description h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44.2px;
+  line-height: 52px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.simple-way-description p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #0f0101;
+  opacity: 0.7;
+  margin-bottom: 31px;
+}
+.simple-way-description ul li {
+  list-style-type: none;
+  margin-bottom: 21px;
+  display: flex;
+  align-items: center;
+}
+.simple-way-description ul li img {
+  width: 30px;
+  height: 30px;
+}
+.simple-way-description li a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+/****************************************
+        FIFTH SECTION ENDS HERE
+*****************************************/
+/****************************************
+        SIXTH SECTION STARTS HERE
+*****************************************/
+.contact-us {
+  width: 1752px;
+  height: 678px;
+}
+.contact-us-container {
+  padding: 110px 482px;
+}
+.contact-us-container h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 36px;
+}
+.contact-us-container input {
+  background: #ffffff;
+  border: 1px solid #ffa3a3;
+  border-radius: 5px;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  padding-left: 25px;
+  outline: none;
+}
+.contact-us-container h1 {
+  text-align: center;
+}
+.input-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 37px;
+}
+.input-flex div {
+  flex-grow: 1;
+}
+.input-flex div input {
+  width: 100%;
+}
+.form-group {
+  position: relative;
+  width: 100%;
+}
+.form-group input.form-field {
+  position: relative;
+  width: inherit;
+}
+.form-group div.nav-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.contact-us-container input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0f0000;
+  opacity: 0.6;
+}
+/****************************************
+        SIXTH SECTION ENDS HERE
+*****************************************/
+
+/****************************************
+        FOOTER STARTS HERE
+*****************************************/
+footer {
+  width: 1752px;
+  height: 381px;
+  background: #0a0808;
+  display: flex;
+  align-items: center;
+}
+.footer-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: inherit;
+}
+.footer-flex {
+  flex-grow: 1;
+}
+.footer-flex img {
+  margin-bottom: 9px;
+}
+.footer-flex p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+.footer-flex p:nth-child(3) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.footer-flex li {
+  list-style-type: none;
+  gap: 10px;
+}
+.footer-flex li a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.footer-flex .newsletter {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 13px;
+}
+.footer-flex .form-group {
+  margin-bottom: 16.69px;
+}
+.footer-flex .form-field {
+  background: #ffffff;
+  border: 1px solid #ffa3a3;
+  border-radius: 5px;
+  padding: 20px 181px 20px 32px;
+  outline: none;
+}
+
+/****************************************
+        FOOTER ENDS HERE
 *****************************************/
