@@ -5,10 +5,6 @@
 }
 .same-containers {
   padding: 0 230px 0 254px;
-  display: flex;
-}
-.products {
-  display: flex;
 }
 .h-6 {
   width: 16px;
