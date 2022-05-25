@@ -39,7 +39,7 @@ header {
   list-style-type: none;
 }
 .nav-ul li a {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 14px;
   text-decoration: none;
   color: #150101;
@@ -103,7 +103,6 @@ header {
 .second-section {
   position: relative;
   width: 1752px;
-  height: auto;
   background-color: #ffffff;
 }
 .second-section-container {
@@ -189,8 +188,8 @@ header {
         FOURTH SECTION STARTS HERE
 *****************************************/
 .fourth-section {
-  height: 2346px;
   width: 1752px;
+  height: 2346px;
 }
 .fourth-section-container {
   padding-top: 132px;
@@ -198,9 +197,12 @@ header {
   flex-direction: column;
   height: inherit;
 }
-
 .product-details {
   flex-direction: column;
+}
+.product-details .ice-cream {
+  opacity: 1;
+  border-bottom: 3px solid #d64374;
 }
 .products {
   align-items: center;
@@ -233,10 +235,6 @@ header {
   line-height: 21px;
   opacity: 0.6;
   color: #000000;
-}
-.product-details .ice-cream {
-  opacity: 1;
-  border-bottom: 3px solid #d64374;
 }
 .products h2 {
   font-family: "Hind Madurai";
@@ -350,7 +348,6 @@ header {
 }
 .simple-way-description {
   margin-left: 135px;
-
   flex-direction: column;
 }
 .simple-way-description h1 {
@@ -474,16 +471,12 @@ footer {
   width: 1752px;
   height: 381px;
   background: #0a0808;
-
   align-items: center;
 }
 .footer-section-container {
   align-items: center;
   justify-content: space-between;
   width: inherit;
-}
-.footer-flex {
-  flex-grow: 1;
 }
 .footer-flex img {
   margin-bottom: 9px;
